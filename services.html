@@ -12,7 +12,7 @@
     <header>
         <div class="container">
             <di id="branding">
-                <h1><span class="highlight">Ride-My-Way</span></h1>
+                <h1><span class="highlight">Ride-My-Way-Services</span></h1>
             </di>
             <nav>
               <ul>
@@ -26,7 +26,7 @@
     </header>
     <section id="latestnews">
         <div class="container">
-            <h1>Our Services</h1>
+            <h1>Display All Rides Available</h1>
             <form >
                 <button type="#" class="button_X">Home</button>
             </form>
@@ -35,17 +35,17 @@
     <section id="main">
         <div class="container">
             <article id="main-st">
-                <h1 class="Page-title">Ride-My-Way-MENU</h1>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-<p>Click the button to see Available Rides:</p>
+<p>Click the button Available Rides:</p>
 
 <button onclick="myFunction()">Available Rides</button>
 
 <div id="myDIV">
-rides.
+        <p>Accept / Reject</p>
+        <img src="images/ride_69.jpg" alt="image">
 </div>
 
 
@@ -57,23 +57,21 @@ rides.
 </section>
     <section id="latestnews">
         <div class="container">
-            <h1>View Ride  requests</h1>
+            <h1>Display requests & Offers Available</h1>
         </div>
     </section>
     <section id="main">
         <div class="container">
             <article id="main-st">
-                <p>Click the button to see Available Rides:</p>
-
-<button onclick="myFunction()">View Ride  requests</button>
-
+                <p>Click the button View Ride  requests:</p>
+               <button onclick="myFunction()">View Ride  requests</button>
 <div id="myDIV">
-out out rides.
+<p>Requested Rides Lisr / Offer Rides list</p>
+
 </div>
 
-
-
 <script>
+
 function myFunction() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
@@ -83,26 +81,19 @@ function myFunction() {
     }
 }
 </script>
-
-</body>
-            </article>
-            <aside id="sidebar">
-                <p>ADD RIDE OFFERS; "DRIVES ONLY"</p>
-                <input type="Quick calls" placeholder="Enter Text..." id="idea">
-                <!<input type='text' id='idea' />
-                <input type='button' value='Add to list Above' id='add' />
-                <ol id="list_item">
-                  <ul id='list'></ul>
-                
-                </ul>
-</body>
-            </aside>
+<aside id="sidebar">
+    </section>
+    <section id="latestnews">
+        <div class="container">
+            <p>ADD RIDE OFFERS; "DRIVES ONLY"</p>
+            Enter Cost and Destination: <input type="text" id = "message">
+            <input type="submit" onclick="showMessage()" value="submit" />
+            <p> : <span id = "display_message"></span> </p>
         </div>
     </section>
-    <footer>
-    <footer>
+<footer>
         <p>Ride-my-way 2018</p>
-    </footer>
+</footer>
     
 </body>
 </html>
