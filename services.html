@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Active Welcome to our services</title>
+    <title>Active Welcome to Services</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src="main.js"></script>
@@ -12,13 +12,13 @@
     <header>
         <div class="container">
             <di id="branding">
-                <h1><span class="highlight">Ride-My-Way-Services</span></h1>
+                <h1><span class="highlight">Ride-My-Way</span></h1>
             </di>
             <nav>
               <ul>
                   <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="services.html">Services</a></li>
+                  <li class="current"><a href="services.html">Services</a></li>
               </ul>  
             </nav>
 
@@ -26,52 +26,163 @@
     </header>
     <section id="latestnews">
         <div class="container">
-            <h1>Display All Rides Available</h1>
-            <form >
-                <button type="#" class="button_X">Home</button>
-            </form>
+           
+
         </div>
     </section>
     <section id="main">
         <div class="container">
             <article id="main-st">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-
-<p>Click the button Available Rides:</p>
-
-<button onclick="myFunction()">Available Rides</button>
+                <h1 class="Page-title">Our Services</h1>
+            <ul id="services">
+                <li>
+                    <form>
+                        <script type="text/JavaScript">
+                            function showMessage(){
+                                var message = document.getElementById("message").value;
+                                display_message.innerHTML= message;
+                                }
+                        </script>
+                            <body>
+                            <div class="massage">
+                            Enter Ride offers Drivers Only: <input type="text" id = "message">
+                            <input type="submit" onclick="showMessage()" value="submit" />
+                            <p> The ride offer is: <span id = "display_message"></span> </p>
+                            </div>
+                            </body>
+                            
+                    </form> 
+                    
+                </li>
+                <li>
+                <h3>Rides Offers</h3>
+                <button onclick="myFunction()">Rides Offers</button>
 
 <div id="myDIV">
-        <p>Accept / Reject</p>
-        <img src="images/ride_69.jpg" alt="image">
-</div>
+    <form id="winga">
+        <table>
+            <tr>
+              
+              
+              <th>Name of the driver</th>
+              <th>Bus /Route</th>
+              <th>Car/ Route</th>
+              <th>Time</th>
+              <th>Price Ugs</th>
+              <th>Offers/Discount</th>
+              <th>Action</th>
+              <th>Action2</th>
+          </tr>
+          <tr>
+          <td>Alfreds Chizi</td>
+          <td>Mbale</td>
+          <td>Nakawa</td>
+          <td>11:Am</td>
+          <td>32000</td>
+          <td>10%</td>
+          <td><button class="editbtn">Reject</button></td>
+          <td><button class="editbtn">Accept</button></td></tr>
+          
+          <td>chiziz</td>
+          <td>Mbarara</td>
+          <td>gulu</td>
+          <td>12pm</td>
+          <td>40,000</td>
+          <td>20%</td>
+          <td><button class="editbtn">Reject</button></td>
+          <td><button class="editbtn">Accept</button></td></tr>
+          
+          <td>winga E</td>
+          <td>Bugolobi</td>
+          <td>Hoima</td>
+          <td>12pm</td>
+          <td>40,000</td>
+          <td>20%</td>
+          <td><button class="editbtn">Reject</button></td>
+          <td><button class="editbtn">Accept</button></td></tr>
+            
+          </table>
+                  
+    </form>
+</div>                  
+                    </li>
+                 <li>
+                    <h3>Available Rides and there Details</h3>
+                    <button onclick="myFunction()">Rides Details</button>
 
-
-
-
-
-</body>
-
-</section>
-    <section id="latestnews">
-        <div class="container">
-            <h1>Display requests & Offers Available</h1>
-        </div>
-    </section>
-    <section id="main">
-        <div class="container">
-            <article id="main-st">
-                <p>Click the button View Ride  requests:</p>
-               <button onclick="myFunction()">View Ride  requests</button>
 <div id="myDIV">
-<p>Requested Rides Lisr / Offer Rides list</p>
-
+<form id="winga">
+    <table>
+        <tr>
+          
+          
+          <th>Name of the driver</th>
+          <th>Bus /Route</th>
+          <th>Car/ Route</th>
+          <th>Time</th>
+          <th>Price (Ugs)</th>
+          <th>Offers/Discount</th>
+          <th>Action</th>
+      </tr>
+      <tr>
+      <td>Alfreds Chizi</td>
+      <td>Mbale</td>
+      <td>Nakawa</td>
+      <td>11:Am</td>
+      <td>32000</td>
+      <td>10%</td>
+      <td><button class="editbtn">Request</button></td></tr>
+      
+      <td>chiziz</td>
+      <td>Mbarara</td>
+      <td>gulu</td>
+      <td>12pm</td>
+      <td>40,000</td>
+      <td>20%</td>
+      <td><button class="editbtn">Request</button></td></tr>
+      
+      <td>winga E</td>
+      <td>Bugolobi</td>
+      <td>Hoima</td>
+      <td>12pm</td>
+      <td>40,000</td>
+      <td>20%</td>
+      <td><button class="editbtn">Request</button></td></tr>
+        
+      </table>
+              
+</form>
 </div>
+                            
+            </li>
+    <li>
+    <h3>Rides Request</h3>
+    <button onclick="myFunction()">Rides Request</button>
+
+<div id="myDIV">
+<form>
+    <P>Request Form</p>
+    <p><label>Customer name: <input></label></p>
+    <p><label>Telephone: <input type=tel></label></p>
+    <p><label>E-mail address: <input type=email></label></p>
+    <fieldset>
+    <legend> Cars </legend>
+    <p><label> <input type=radio name=size> Small </label></p>
+    <p><label> <input type=radio name=size> Medium </label></p>
+    </fieldset>
+    <fieldset>
+    <legend> Buses </legend>
+    <p><label> <input type=checkbox> First Class </label></p>
+    <p><label> <input type=checkbox> second Class </label></p>
+    </fieldset>
+    <p><label>Preferred delivery time: <input type=time min="11:00" max="12:00" step="900"></label></p>
+    <p><label>Delivery instructions: <textarea></textarea></label></p>
+    <p><button>Submit order</button></p>
+</form>.
+</div>
+<!--<p>The element will not take up any space when the display property set to "none".</p>-->
 
 <script>
-
 function myFunction() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
@@ -81,19 +192,15 @@ function myFunction() {
     }
 }
 </script>
-<aside id="sidebar">
-    </section>
-    <section id="latestnews">
-        <div class="container">
-            <p>ADD RIDE OFFERS; "DRIVES ONLY"</p>
-            Enter Cost and Destination: <input type="text" id = "message">
-            <input type="submit" onclick="showMessage()" value="submit" />
-            <p> : <span id = "display_message"></span> </p>
+                                
+    </li>
+        </ul>
+
         </div>
     </section>
-<footer>
+    <footer>
         <p>Ride-my-way 2018</p>
-</footer>
+    </footer>
     
 </body>
 </html>
