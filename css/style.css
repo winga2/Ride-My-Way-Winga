@@ -1,8 +1,8 @@
 body{
-    font: i5px/1.5 Franklin Gothic Medium', 'Arial Narrow;
+    font: 15px/1.5 Franklin Gothic Medium', 'Arial Narrow;
     padding: 0;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #cccccc;
 }
 
 
@@ -12,6 +12,13 @@ body{
     margin: auto;
     overflow: hidden;
 
+}
+.nyeusi{
+    padding: 15px;
+    background: #2e13c7;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 ul{
     margin: 0;
@@ -39,7 +46,7 @@ button{
 
 /*header*/
 header{
-    background: #35424a;
+    background: #050979;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
@@ -84,9 +91,12 @@ header a:hover{
 /*showcase*/
 #showcase{
     min-height: 300px;
-    background: images('../images/jaribu.png') no-repeat 0 --400px;
     text-align: center;
     color: #2e13c7;
+
+    display:grid;
+    grid-gap:20px;
+    grid-template-areas: ' containerO';
 }
 
 #showcase h1{
@@ -99,7 +109,7 @@ header a:hover{
     font-size: 20px;
     font-style: italic
 }
-/*lates tnews*/
+/*latestnews*/
 #latestnews{
     padding: 15px;
     color: #ffffff;
@@ -138,6 +148,19 @@ aside#sidebar{
     float: right;
     width: 30%;
     margin-top: 10px;
+}
+/*for registration*/
+
+
+/*main-st*/
+
+#services li{
+    list-style: none;
+    padding: 20px;
+    border: #4b4664 solid 1px;
+    margin-bottom: 5px;
+    background: #666666;
+
 }
 
 /*footer*/
@@ -223,9 +246,27 @@ footer{
 #myDIV {
     width: 100%;
     padding: 50px 0;
-    text-align: center;
+    text-align: left;
     background-color: lightblue;
     margin-top: 20px;
 }
 
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-justify: auto;
+
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
     
