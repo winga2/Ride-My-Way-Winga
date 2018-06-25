@@ -21,13 +21,13 @@ def get_ride(ride_id):
     return jsonify({'ride':usr})
 
 
-
+#ASk for offer
 @app.route('/index/v1/rides/<ride_id>/requests',methods=['GET'])
 def request_ride(offer):
     ask = [ ride for ride in rideOF if (ride['id'] == offer) ] 
     return jsonify({'ride':ask})
 
-
+#adding rider
 @app.route('/index/v1/rides/<ride_Id>',methods=['PUT'])
 def updateride(ride_Id):
     rid = [ ride for ride in rideOF if (ride['id'] == ride_Id) ]
@@ -37,7 +37,7 @@ def updateride(ride_Id):
         rid[0]['offer'] = request.json['offer']
     return jsonify({'ride':rid[0]})
 
-#adding rider  
+ #create Arider 
 @app.route('/index/v1/rides',methods=['POST'])
 def createride():
     dat = {
