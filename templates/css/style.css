@@ -1,0 +1,166 @@
+body{
+    font: 15px/1.5 Franklin Gothic Medium', 'Arial Narrow;
+    padding: 0;
+    margin: 0;
+    background-color: #422a6e;
+}
+
+/*global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*header*/
+header{
+    background: #050979;
+    color: #ffffff;
+    padding-top: 25px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header#branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    font-weight: bold;
+    color: #e8491d;
+}
+/*section*/
+#main{
+    font-weight: bold;
+    color:  #e8491d;
+}
+
+#main_1{
+    font-weight: bold;
+    color:  #e8491d;
+}
+/*all h3*/
+h3{
+    font-weight: bold;
+    color:  #e8491d;
+}
+
+.header a:hover{
+    color: #666666;
+    font-weight: bold;
+}
+/*services*/
+.page-title{
+    color: #e8491d;
+    font-weight: bold;   
+}
+#showcase{
+    min-height: 00px;
+    text-align: center;
+    color: #c7135e;   
+}
+#showcase h1{
+    margin-top: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#content{
+    padding: 20px;
+    margin-top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    align-content: center;
+    margin-left: 520px;
+    margin-right: 520px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*footer*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+/*main*/
+
+#services li{
+    list-style: none;
+    padding: 20px;
+    border: #4b4664 solid 1px;
+    margin-bottom: 5px;
+    background: #666666;
+}
+
+#myDiv_2, #myDiv_1, #myDiv_3 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: left;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-justify: auto;
+
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#form{
+    float: right;
+}
+/*signUp*/
+.nyeusi{
+    padding: 15px;
+    background: #666666;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
