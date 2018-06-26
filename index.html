@@ -3,57 +3,181 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Welcome to home</title>
+    <title>Welcome to Services</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <di id="branding">
-                <h1><span class="highlight">Ride-My-Way</span></h1>
-            </di>
-            <nav>
-              <ul>
-                  <li class="current"><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="services.html">Services</a></li>
-              </ul>  
-            </nav>
-
+<header>
+    <div class="container">
+        <div id="branding">
+                <h1><span class="highlight"> <a href="home.html">Ride-My-Way</a></span></h1>
         </div>
-    </header>
-    <section id="showcase">
-        
-        <div id="content">
-                <h1>Welcome to Ride-my-way</h1>
-                    <div class="signIn">
-                            <fieldset>
-                                <legend id="sign">Sign In</legend>
-                                <form class="input" action="#">
-                                <input type="email" placeholder="*email address" required="" /><br><br>   
-                                <input type="password" placeholder="*password" required= id="ip1""" /><br><br>   
-                                <input id="submit" type="submit" placeholder="Sign in" />
+    </div>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="index.html">Dashboard</a></li> 
+        </ul>
+    </nav>
+</header>
+<section>
+<section>
+        <h1 class="Page-title">Add Ride</h1>
+            <ul id="services">
+                <li>
+                    <form>
+                        <script type="text/JavaScript">
+                            function showMessage(){
+                                var message = document.getElementById("message").value;
+                                display_message.innerHTML= message;
+                                }
+                        </script>
+                        <body>
+                            <div class="massage">
+                            <div id="shnM">
+                            Enter Ride offers Drivers Only: <input type="text" id = "message" placeholder="Name & Ride Offer">
+                            <input type="submit" onclick="showMessage()" value="submit" />
+                            <p> The ride offer is: <span id = "display_message"></span> </p>
+                            </di>
+                        </div>
+                        </body>
+                            
+                    </form>
+             
+</section>
+<section id="main">
+    <h3>Ride Offres</h3>
+    <div id="myDiv_1">
+            <form id="winga">
+                    <table>
+                    <tr>
+                        
+                        
+                        <th>Name of the driver</th>
+                        <th>Bus /Route</th>
+                        <th>Car/ Route</th>
+                        <th>Time</th>
+                        <th>Price Ugs</th>
+                        <th>Offers/ Discount</th>
+                        <th>Action</th>
+                        <th>Action2</th>
+                        </tr>
+                        <tr>
+                        <td>Alfreds Chizi</td>
+                        <td>Mbale</td>
+                        <td>Nakawa</td>
+                        <td>11:Am</td>
+                        <td>32000</td>
+                        <td>10%</td>
+                        <td><button class="editbtn">Reject</button></td>
+                        <td><button class="editbtn">Accept</button></td></tr>
+                        
+                        <td>chiziz</td>
+                        <td>Mbarara</td>
+                        <td>gulu</td>
+                        <td>12pm</td>
+                        <td>40,000</td>
+                        <td>20%</td>
+                        <td><button class="editbtn">Reject</button></td>
+                        <td><button class="editbtn">Accept</button></td></tr>
+                        
+                        <td>winga E</td>
+                        <td>Bugolobi</td>
+                        <td>Hoima</td>
+                        <td>12pm</td>
+                        <td>40,000</td>
+                        <td>20%</td>
+                        <td><button class="editbtn">Reject</button></td>
+                        <td><button class="editbtn">Accept</button></td></tr>
+                        
+                    </table>
                                 
-                                <br><br>
-                                </form>
-                            </fieldset>
-                        </div>
-                        <br><br>
-                        <fieldset>
-                        <div id="signUP">
-                            <p>If you dont have an account?<a id="link" href="signUp.html">Sign Up</a></p>
-                            <p>Its a great pleasure for us to Ride your way </p>
-                            <p id="slogan">Ride-My-Way, We do it best!</p>
-            
-                        </div>
-                        </fieldset>
-                    </div>
+                </form>
+            </div>                  
+                
+    </div>
+</section>
+<section id="main_1">
+    <h3>Available Rides and there Details</h3>
+    <div id="myDiv_2">
+            <form id="winga_E">
+                <table>
+                    <tr>
+                    <th>Name of the driver</th>
+                    <th>Bus /Route</th>
+                    <th>Car/ Route</th>
+                    <th>Time</th>
+                    <th>Price (Ugs)</th>
+                    <th>Offers/ Discount</th>
+                    <th>Action</th>
+                    </tr>
+                    <tr>
+                    <td>Alfreds Chizi</td>
+                    <td>Mbale</td>
+                    <td>Nakawa</td>
+                    <td>11:Am</td>
+                    <td>32000</td>
+                    <td>10%</td>
+                    <td><button class="editbtn">Request</button></td></tr>
                     
-    </section>
-    <footer>
-            <p>Ride-my-way 2018 "Your sefty is our priority." 
-        </footer>
+                    <td>chiziz</td>
+                    <td>Mbarara</td>
+                    <td>gulu</td>
+                    <td>12pm</td>
+                    <td>40,000</td>
+                    <td>20%</td>
+                    <td><button class="editbtn">Request</button></td></tr>
+                    
+                    <td>winga E</td>
+                    <td>Bugolobi</td>
+                    <td>Hoima</td>
+                    <td>12pm</td>
+                    <td>40,000</td>
+                    <td>20%</td>
+                    <td><button class="editbtn">Request</button></td></tr>
+                    
+                </table>
+                            
+            </form>
+    </div>
+</section>
+<section id="main_2">
+    <h3>Rides Request</h3>
+    <div id="myDiv_3">
+            <form id="edu">
+    <table>   
+        <tr><th><fieldset>
+                <p><label>Customer name: <input></label></p>
+                <p><label>Telephone: <input type=tel></label></p>
+                <p><label>E-mail address: <input type=email></label></p>
+                </fieldset></th>
+            <th><fieldset>
+                <legend> Cars </legend>
+                <p><label> <input type=radio name=size> Small </label></p>
+                <p><label> <input type=radio name=size> Medium </label></p>
+                </fieldset></th>
+            <th><fieldset>
+                <legend> Buses </legend>
+                <p><label> <input type=checkbox> First Class </label></p>
+                <p><label> <input type=checkbox> second Class </label></p>
+                </fieldset></th>
+            <th><fieldset>
+                <p><label>Preferred Travell time: <input type=time min="08:00" max="12:00" step="1500"></label></p>
+                <p><label>Booking instructions: <textarea></textarea></label></p>
+                <p><button>Submit order</button></p>
+                </fieldset></th></tr>
+    </table>
+            </form>.
+        </div>
+</section>
+</div>
+</div>
+</section>
+<footer>
+    <p>Ride-my-way 2018 "Your sefty is our priority." 
+</footer>
 </body>
 </html>

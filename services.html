@@ -3,181 +3,55 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Welcome to Services</title>
+    <title> Welcome to About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src="main.js"></script>
 </head>
 <body>
-<header>
-    <div class="container">
-        <div id="branding">
-            <h1><span class="highlight">Ride-My-Way</span></h1>
+    <header>
+        <div class="container">
+            <di id="branding">
+                    <h1><span class="highlight"> <a href="home.html">Ride-My-Way</a></span></h1>
+            </di>
+            <nav>
+              <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li class="current"><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+              </ul>  
+            </nav>
+
         </div>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="current"><a href="services.html">Services</a></li> 
-        </ul>
-    </nav>
-</header>
-<section>
-<section>
-        <h1 class="Page-title">Add Ride</h1>
-            <ul id="services">
-                <li>
-                    <form>
-                        <script type="text/JavaScript">
-                            function showMessage(){
-                                var message = document.getElementById("message").value;
-                                display_message.innerHTML= message;
-                                }
-                        </script>
-                        <body>
-                            <div class="massage">
-                            <div id="shnM">
-                            Enter Ride offers Drivers Only: <input type="text" id = "message" placeholder="Name & Ride Offer">
-                            <input type="submit" onclick="showMessage()" value="submit" />
-                            <p> The ride offer is: <span id = "display_message"></span> </p>
-                            </di>
-                        </div>
-                        </body>
-                            
-                    </form>
-             
-</section>
-<section id="main">
-    <h3>Ride Offres</h3>
-    <div id="myDiv_1">
-            <form id="winga">
-                    <table>
-                    <tr>
-                        
-                        
-                        <th>Name of the driver</th>
-                        <th>Bus /Route</th>
-                        <th>Car/ Route</th>
-                        <th>Time</th>
-                        <th>Price Ugs</th>
-                        <th>Offers/ Discount</th>
-                        <th>Action</th>
-                        <th>Action2</th>
-                        </tr>
-                        <tr>
-                        <td>Alfreds Chizi</td>
-                        <td>Mbale</td>
-                        <td>Nakawa</td>
-                        <td>11:Am</td>
-                        <td>32000</td>
-                        <td>10%</td>
-                        <td><button class="editbtn">Reject</button></td>
-                        <td><button class="editbtn">Accept</button></td></tr>
-                        
-                        <td>chiziz</td>
-                        <td>Mbarara</td>
-                        <td>gulu</td>
-                        <td>12pm</td>
-                        <td>40,000</td>
-                        <td>20%</td>
-                        <td><button class="editbtn">Reject</button></td>
-                        <td><button class="editbtn">Accept</button></td></tr>
-                        
-                        <td>winga E</td>
-                        <td>Bugolobi</td>
-                        <td>Hoima</td>
-                        <td>12pm</td>
-                        <td>40,000</td>
-                        <td>20%</td>
-                        <td><button class="editbtn">Reject</button></td>
-                        <td><button class="editbtn">Accept</button></td></tr>
-                        
-                    </table>
-                                
-                </form>
-            </div>                  
-                
-    </div>
-</section>
-<section id="main_1">
-    <h3>Available Rides and there Details</h3>
-    <div id="myDiv_2">
-            <form id="winga_E">
-                <table>
-                    <tr>
-                    <th>Name of the driver</th>
-                    <th>Bus /Route</th>
-                    <th>Car/ Route</th>
-                    <th>Time</th>
-                    <th>Price (Ugs)</th>
-                    <th>Offers/ Discount</th>
-                    <th>Action</th>
-                    </tr>
-                    <tr>
-                    <td>Alfreds Chizi</td>
-                    <td>Mbale</td>
-                    <td>Nakawa</td>
-                    <td>11:Am</td>
-                    <td>32000</td>
-                    <td>10%</td>
-                    <td><button class="editbtn">Request</button></td></tr>
-                    
-                    <td>chiziz</td>
-                    <td>Mbarara</td>
-                    <td>gulu</td>
-                    <td>12pm</td>
-                    <td>40,000</td>
-                    <td>20%</td>
-                    <td><button class="editbtn">Request</button></td></tr>
-                    
-                    <td>winga E</td>
-                    <td>Bugolobi</td>
-                    <td>Hoima</td>
-                    <td>12pm</td>
-                    <td>40,000</td>
-                    <td>20%</td>
-                    <td><button class="editbtn">Request</button></td></tr>
-                    
-                </table>
-                            
-            </form>
-    </div>
-</section>
-<section id="main_2">
-    <h3>Rides Request</h3>
-    <div id="myDiv_3">
-            <form id="edu">
-    <table>   
-        <tr><th><fieldset>
-                <p><label>Customer name: <input></label></p>
-                <p><label>Telephone: <input type=tel></label></p>
-                <p><label>E-mail address: <input type=email></label></p>
-                </fieldset></th>
-            <th><fieldset>
-                <legend> Cars </legend>
-                <p><label> <input type=radio name=size> Small </label></p>
-                <p><label> <input type=radio name=size> Medium </label></p>
-                </fieldset></th>
-            <th><fieldset>
-                <legend> Buses </legend>
-                <p><label> <input type=checkbox> First Class </label></p>
-                <p><label> <input type=checkbox> second Class </label></p>
-                </fieldset></th>
-            <th><fieldset>
-                <p><label>Preferred Travell time: <input type=time min="08:00" max="12:00" step="1500"></label></p>
-                <p><label>Booking instructions: <textarea></textarea></label></p>
-                <p><button>Submit order</button></p>
-                </fieldset></th></tr>
-    </table>
-            </form>.
+    </header>
+    
+    <section id="main_3">
+        <div class="container">
+            <article id="main-st">
+            
+                <h1 class="Page-title">Cars</h1>
+                <p>gjabkjjekwhl,wkj  eowjlke. qwe oi <p>You can link to Python in two different ways. Load-time linking means linking against pythonNN.lib, while run-time linking means linking against pythonNN.dll. (General 
+                    note: pythonNN.lib is the so-called “import lib” corresponding to pythonNN.dll. 
+                 It merely defines symbols for the linker.)</p>
+                <p>Run-time linking greatly simplifies link options; everything happens at run time. Your code must load 
+                    pythonNN.dll using the Windows LoadLibraryEx()routine. The code must also use access routines and data in pythonNN.dll (that is, Python’s C API’s)
+                     using pointers obtained by the Windows GetProcAddress() routine. Macros can make using these pointers transparent to any C code that 
+                 calls routines in Python’s C API.</p><br></p>
+
+                 <h3>Buses</h3>
+                <p>You can link to Python in two different ways. Load-time linking means linking against pythonNN.lib, while run-time linking means linking against pythonNN.dll. (General 
+                    note: pythonNN.lib is the so-called “import lib” corresponding to pythonNN.dll. 
+                 It merely defines symbols for the linker.)</p>
+                <p>Run-time linking greatly simplifies link options; everything happens at run time. Your code must load 
+                    pythonNN.dll using the Windows LoadLibraryEx()routine. The code must also use access routines and data in pythonNN.dll (that is, Python’s C API’s)
+                    routine. Macros can make using these pointers transparent to any C code that 
+                 calls routines in Python’s C API.</p><br>
+            </article>
+           
         </div>
-</section>
-</div>
-</div>
-</section>
-<footer>
-    <p>Ride-my-way 2018 "Your sefty is our priority." 
-</footer>
+    </section>
+    <footer>
+        <p>Ride-my-way 2018 "Your sefty is our priority." 
+    </footer>
 </body>
 </html>
