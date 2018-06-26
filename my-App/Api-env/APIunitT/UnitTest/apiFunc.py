@@ -3,9 +3,9 @@
 # This fails the tesat
 # When the expected = [] in the TestApi.py 
 
-def get_Allrides():
-    """return a list of all rides with their id, name,offer"""
-    return 0
+#def get_Allrides():
+   # """return a list of all rides with their id, name,offer"""
+    #return 0
 
 # To pass the test
 # giving it content of a [] list
