@@ -2,14 +2,15 @@ body{
     font: 15px/1.5 Franklin Gothic Medium', 'Arial Narrow;
     padding: 0;
     margin: 0;
-    background-color: #422a6e;
+    background-color: #c5da78;
 }
 
 /*global*/
 .container{
     width: 80%;
     margin: auto;
-    overflow: hidden;
+    
+   
 }
 
 ul{
@@ -24,7 +25,7 @@ header{
     background: #050979;
     color: #ffffff;
     padding-top: 25px;
-    min-height: 70px;
+    min-height: 50px;
     border-bottom: #e8491d 3px solid;
 }
 header a{
@@ -38,15 +39,16 @@ header li{
     display: inline;
     padding: 0 20px 0 20px;
 }
-header #branding{
+header #branding h1{
     float: left;
+    margin-top: 10px;
+
 }
-header#branding h1{
-    margin: 0;
-}
+
 header nav{
     float: right;
     margin-top: 10px;
+    
 }
 header .highlight, header .current a{
     font-weight: bold;
@@ -77,40 +79,64 @@ h3{
     color: #e8491d;
     font-weight: bold;   
 }
+.massage{
+    color: #c5da78
+}
+#shnM input{
+    width: 300px;
+    height: 50px;
+    
+    
+}
 #showcase{
     min-height: 00px;
     text-align: center;
-    color: #c7135e;   
+    color: #c7135e; 
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+       
 }
-#showcase h1{
+#showcase.contet.h1{
     margin-top: 10px;
     font-size: 24px;
     margin-bottom: 10px;
 }
 #content{
-    padding: 20px;
-    margin-top: 20px;
-    left: 0;
-    right: 0;
-    z-index: 2;
-    align-content: center;
-    margin-left: 520px;
-    margin-right: 520px;
+    margin-top: 4px;  
+    align-content: center; 
+    background-color:  #42A5F5;
 }
+.signIn input{
+    
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    border: none; 
+    border:solid 1px #ccc;
+    border-radius: 10px;
+}
+.signIn{
+    align-content: center; 
+}
+
 
 body{
     font-family: 'Times New Roman', Times, serif;
 }
 
 /*footer*/
-footer{
-    padding: 20px;
-    margin-top: 20px;
-    color: #ffffff;
-    background-color: #e8491d;
-    text-align: center;
-}
 
+  footer {
+    background: #42A5F5;
+    color: white;
+    text-align: center;
+    position: fixed;
+    padding: 3px;
+    bottom: 0;
+    width: 100%;
+  }
 /*main*/
 
 #services li{
@@ -153,14 +179,22 @@ tr:nth-child(even) {
 /*signUp*/
 .nyeusi{
     padding: 15px;
-    background: #666666;
+    background: #42A5F5;
     color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
     float: left;
+    
 }
 aside#sidebar{
     float: right;
     width: 30%;
     margin-top: 10px;
 }
+
+@media screen and (min-width: 481px) {
+    /* comes into effect for screens larger than or equal to 481 pixels */
+    #somethingorother {
+      width: 480px ;
+    }
+  }
